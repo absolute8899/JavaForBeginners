@@ -18,3 +18,4 @@ public class ren4noex extends MyFrame{
 	}
 
 }
+//これはクラスの名前間違えました４の３です
