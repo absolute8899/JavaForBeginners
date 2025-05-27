@@ -10,11 +10,11 @@ public class Animation extends MyFrame{
 			x+=5;
 			sleep(0.1);
 		}
-		while(y<=200) {
+		while(x>=30) {
 			clear();
 			setColor(0,128,0);
 			fillRect(x,y,10,100);
-			y+=5;
+			x-=5;
 			sleep(0.1);
 		}
 	}
