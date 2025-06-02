@@ -71,6 +71,43 @@ public class ren5 extends MyFrame{
 //			sleep(0.1);
 //		}
 //		}
+		
+		
+//5-EX
+		int x=50;
+		int y=50;
+		
+		while(true) {
+			while(x<=250) {
+				clear();
+				setColor(0,128,0);
+				fillRect(x,y,10,100);
+				x+=5;
+				sleep(0.01);
+			}
+			while(y<=250) {
+			clear();
+			setColor(0,128,0);
+			fillRect(x,y,10,100);
+			y+=5;
+			sleep(0.01);
+			}
+			while(x>=50) {
+				clear();
+				setColor(0,128,0);
+				fillRect(x,y,10,100);
+				x-=5;
+				sleep(0.01);
+			}
+			while(y>=50) {
+				clear();
+				setColor(0,128,0);
+				fillRect(x,y,10,100);
+				y-=5;
+				sleep(0.01);
+			}
+		
+		}
 	}
 
 }
