@@ -16,7 +16,9 @@ public class start {
 		//MyFrame frame10=new DisplayRectsSlow();
 		//MyFrame frame11=new Animation();
 		//MyFrame frame12=new ren5();
-		MyFrame frame13=new maru();
+		//MyFrame frame13=new maru();
+		//MyFrame frame14=new DisplayFace();
+		MyFrame frame15=new DisplayFaceObject();
 	}
 
 }
