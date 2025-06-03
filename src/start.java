@@ -18,10 +18,10 @@ public class start {
 		//MyFrame frame12=new ren5();
 		//MyFrame frame13=new maru();
 		//MyFrame frame14=new DisplayFace();
-		//MyFrame frame15=new DisplayFaceObject();
+		MyFrame frame15=new DisplayFaceObject();
 		//MyFrame frame16=new DisplayFaceAndTree();
 		//MyFrame frame17=new DisplayCar();
-		MyFrame frame18=new DisplayCarObject();
+		//MyFrame frame18=new DisplayCarObject();
 	}
 
 }

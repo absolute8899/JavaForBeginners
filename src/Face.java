@@ -16,5 +16,6 @@ public class Face {
 		x+=vx;
 		y+=vy;
 	}
+	
 
 }
