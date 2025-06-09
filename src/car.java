@@ -1,11 +1,8 @@
 
-public class car {
-	int x,y,vx,vy;
-	public car(int x,int y,int vx,int vy) {
-		this.x=x;
-		this.y=y;
-		this.vx=vx;
-		this.vy=vy;
+public class car extends Vehicle{
+	public car(int x, int y, int vx, int vy) {
+		super(x, y, vx, vy);
+		// TODO 自動生成されたコンストラクター・スタブ
 	}
 	public void draw(MyFrame frame) {
 		frame.fillOval(x+10,y+25,15,15);
@@ -14,10 +11,5 @@ public class car {
 		frame.fillRect(x+10,y,40,20);
 
 	}
-	public void move() {
-		x+=vx;
-		//y+=vy;
-	}
-
 }
 

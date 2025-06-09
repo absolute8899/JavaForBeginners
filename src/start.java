@@ -23,7 +23,10 @@ public class start {
 		//MyFrame frame17=new DisplayCar();
 		//MyFrame frame18=new DisplayCarObject();
 		//MyFrame frame19=new DisplayFaceVector();
-		MyFrame frame20=new DisplayCarVector();
+		//MyFrame frame20=new DisplayCarVector();
+		//MyFrame frame21=new Displays();
+		//MyFrame frame22=new DisplayCarTrain();
+		MyFrame frame23=new DisplayVehicleVector();
 	}
 
 }
