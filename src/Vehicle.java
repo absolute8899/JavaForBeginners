@@ -13,5 +13,11 @@ public class Vehicle {
 	public void move() {
 		x+=vx;
 		y+=vy;
+		
+		if(x>300) 
+			x = -100;
+		
+		if(x<-110)
+			x = 300;
 	}
 }
